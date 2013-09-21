@@ -4,3 +4,7 @@ tictactoe.smc: tictactoe.asm tictactoe.link
 
 clean: 
 	rm *.obj *.smc
+
+test:
+	echo "SHITS DUNF*CKED UP"
+	exit 1
