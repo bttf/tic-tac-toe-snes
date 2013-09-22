@@ -6,5 +6,4 @@ clean:
 	rm *.obj *.smc
 
 test:
-	echo "green green"
-	exit 0
+	./test.sh tictactoe.smc
