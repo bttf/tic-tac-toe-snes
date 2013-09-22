@@ -6,4 +6,4 @@ clean:
 	rm *.obj *.smc
 
 test:
-	test.sh tictactoe.smc
+	./test.sh tictactoe.smc
