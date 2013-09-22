@@ -1,9 +1,9 @@
 tictactoe.smc: tictactoe.asm tictactoe.link
-	./wla-65816 -vo tictactoe.asm tictactoe.obj
-	./wlalink -vr tictactoe.link tictactoe.smc
+	wla-65816 -vo tictactoe.asm tictactoe.obj
+	wlalink -vr tictactoe.link tictactoe.smc
 
 clean: 
 	rm *.obj *.smc
 
 test:
-	./test.sh tictactoe.smc
+	test.sh tictactoe.smc
